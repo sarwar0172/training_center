@@ -1,9 +1,31 @@
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.home_header{
+    width: 80%;
+    margin-top: 5rem;
+}
+.carousel-inner img{
+    height: 20rem;
+}
+.home_nav_bar{
+    margin-top:.7rem;
+}
+.home_nav_bar button{
+    border: 1px dotted gray;
 }

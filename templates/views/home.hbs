@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    {{>header}}
 </head>
 <body>
-    <h2>this is robin homepage</h2>
+    <header class="home_header">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="images/header_image_1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/header_image_2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/header_image_3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<nav class="home_nav_bar d-flex">
+   <button class="btn"><i class="fa-sharp fa-solid fa-house"></i></button>
+   <button class="btn">বিএমইটি</button>
+   <button class="btn">সেবাসমুহ</button>
+   <button class="btn">বিএমইটি</button>
+   <button class="btn">বিএমইটি</button>
+   <button class="btn">বিএমইটি</button>
+</nav>
+    </header>
 </body>
+{{>footer_links}}
 </html>
