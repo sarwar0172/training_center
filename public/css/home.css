@@ -1,0 +1,90 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.home_header{
+    margin: auto;
+    width: 80%;
+    margin-top: 5rem;
+}
+.carousel-inner img{
+    height: 20rem;
+}
+.home_nav_bar{
+    margin-top:.7rem;
+    flex-wrap: wrap;
+
+}
+.home_nav_bar button{
+    border: 1px dotted gray;
+    margin: 2px 5px;
+
+}
+
+/* website body */
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+
+/* notice board */
+.notice_board{
+    background-color: lightgrey;
+    padding: 2rem;
+    border: 1px solid gray;
+}
+.notice_board h6{
+    margin-left: 2rem;
+}
+.notice_board h6 a{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px dotted gray;
+}
+
+.notice_board h6 a:hover{
+    color: black;
+}
+
+
+
+/*========
+ side section
+ =======*/
+.precedent{
+    height: 20rem;
+}
+.precedent .name{
+    background-color:rgb(96, 149, 19) ;
+    padding: 5px;
+    color: #fff;
+}
+/* ====================media query==================*/
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	main{
+        grid-template-columns: 1fr;
+       
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     {{>header}}
+    {{!-- custom css--}}
+     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <header class="home_header">
@@ -22,11 +24,38 @@
    <button class="btn"><i class="fa-sharp fa-solid fa-house"></i></button>
    <button class="btn">বিএমইটি</button>
    <button class="btn">সেবাসমুহ</button>
-   <button class="btn">বিএমইটি</button>
-   <button class="btn">বিএমইটি</button>
-   <button class="btn">বিএমইটি</button>
+   <button class="btn">প্রশিক্ষণ</button>
+   <button class="btn">বৈদেদেশিশিক শ্রমবাজার</button>
+   <button class="btn">পরিসংখ্যান</button>
 </nav>
     </header>
+
+{{!--website body --}}
+<main>
+
+{{!-- middle section --}}
+<section class="middle_section">
+  <section class="notice_board">
+       <h4>নোটিশ বোর্ড</h2>
+       <h6><i class="fa-solid fa-caret-right"></i> <a href="#">কুটনৈতিক বিশেষ এবং অফিসিয়াল পাসপোর্টধারীদের জন্য ভিসা প্রযোজ্যতা বিলোপ সংক্রান্ত ।</a></h4>
+       <h6><i class="fa-solid fa-caret-right"></i> <a href="#">প্রশিক্ষণের গুণগত মান উন্নয়ণে নির্দেশনা প্রদান প্রসঙ্গে ।</a></h4>
+       <h6><i class="fa-solid fa-caret-right"></i> <a href="#">বিএমইটি’র মার্চ/২০২৩ মাসের মাসিক সমন্বয় সভার নোটিশ</a></h4>
+       <h6><i class="fa-solid fa-caret-right"></i> <a href="#">নতুন রিক্রুটিং লাইসেন্সের নামের অনুমোদন প্রসঙ্গে ।</a></h4>
+  </section>
+</section>
+
+{{!-- side section --}}
+<section class="side_section">
+
+<div class="precedent">
+  <h3 class="name">মাননীয় মন্ত্রী</h3>
+  <img src="images/precedent.jpg" alt="" width="100%" height="80%">
+   <p class="description">জনাব ইমরান আহমদ, এমপি</p>
+</div>
+
+</section>
+</main>
+
 </body>
 {{>footer_links}}
 </html>
